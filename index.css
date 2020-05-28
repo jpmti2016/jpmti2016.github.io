@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3125;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+.container {
+  width: 85%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 4em 0;
+}
