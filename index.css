@@ -10,6 +10,8 @@
   font-size: 1.3125;
   line-height: 1.6;
   font-weight: 400;
+  color: #111;
+  background-color: #eeeeee;
 }
 
 img {
@@ -28,6 +30,19 @@ h2 {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+}
+
 section {
   padding: 4em 0;
+}
+
+ul {
+  display: flex;
+}
+
+#welcome {
+  height: 100vh;
+  background-color: aquamarine;
 }

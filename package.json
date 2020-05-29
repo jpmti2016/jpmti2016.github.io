@@ -1,0 +1,25 @@
+{
+  "name": "jpmti2016.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o build/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmti2016/jpmti2016.github.io.git"
+  },
+  "author": "Yampier Medina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpmti2016/jpmti2016.github.io/issues"
+  },
+  "homepage": "https://github.com/jpmti2016/jpmti2016.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}

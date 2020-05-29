@@ -8,10 +8,31 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="build/index.css" />
   </head>
   <body>
-    <section id="welcome">
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a href="#"
+          ><img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/logo.svg"
+            alt="logo"
+        /></a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav-item"><a href="#welcome">About</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#learning">Learning</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="welcome" class="container">
       <h1>Yampier Medina</h1>
       <h2>Computer Science Engineer (BS)</h2>
       <h3>Live learner, nature lover and web coder converted</h3>
