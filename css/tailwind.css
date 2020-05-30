@@ -33,6 +33,22 @@
   @apply bg-gray-500;
 }
 
+.nav {
+  @apply hidden;
+}
+
+.nav--visible {
+  @apply block;
+}
+
+.svg-close {
+  @apply hidden;
+}
+
+.svg-open {
+  @apply block;
+}
+
 @screen sm {
   .btn {
     @apply px-5 py-3;

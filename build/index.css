@@ -680,6 +680,22 @@ video {
   background-color: rgba(160, 174, 192, var(--bg-opacity));
 }
 
+.nav {
+  display: none;
+}
+
+.nav--visible {
+  display: block;
+}
+
+.svg-close {
+  display: none;
+}
+
+.svg-open {
+  display: block;
+}
+
 @media (min-width: 640px) {
   .btn {
     padding-left: 1.25rem;
