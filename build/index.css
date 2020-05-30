@@ -619,6 +619,49 @@ video {
   }
 }
 
+.btn {
+  display: inline-block;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --bg-opacity: 1;
+  background-color: #667eea;
+  background-color: rgba(102, 126, 234, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  border-radius: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  --bg-opacity: 1;
+  background-color: #7f9cf5;
+  background-color: rgba(127, 156, 245, var(--bg-opacity));
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn:active {
+  --bg-opacity: 1;
+  background-color: #5a67d8;
+  background-color: rgba(90, 103, 216, var(--bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
