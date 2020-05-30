@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jpmti2016/jpmti2016.github.io#readme",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
     "autoprefixer": "^9.8.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
