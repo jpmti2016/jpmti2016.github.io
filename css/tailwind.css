@@ -2,24 +2,44 @@
 @tailwind components;
 
 .btn {
-  @apply inline-block shadow-lg bg-indigo-500 text-white rounded-lg px-5 py-3 uppercase tracking-wider text-sm font-semibold;
-}
-
-.btn:hover {
-  @apply bg-indigo-400;
+  @apply px-2 py-2 mb-2 inline-block rounded-lg uppercase tracking-wider font-semibold;
 }
 
 .btn:focus {
   @apply outline-none shadow-outline;
 }
 
-.btn:active {
+.btn-indigo {
+  @apply bg-indigo-500 text-white;
+}
+
+.btn-indigo:hover {
+  @apply bg-indigo-400;
+}
+
+.btn-indigo:active {
   @apply bg-indigo-600;
+}
+
+.btn-gray {
+  @apply ml-2 bg-gray-400 text-gray-800;
+}
+
+.btn-gray:hover {
+  @apply bg-gray-300;
+}
+
+.btn-gray:active {
+  @apply bg-gray-500;
 }
 
 @screen sm {
   .btn {
-    @apply text-base;
+    @apply px-5 py-3;
+  }
+
+  .btn-gray {
+    @apply ml-3;
   }
 }
 
