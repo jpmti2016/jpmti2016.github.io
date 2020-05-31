@@ -696,6 +696,18 @@ video {
   display: block;
 }
 
+.social-list::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  --bg-opacity: 1;
+  background-color: #a0aec0;
+  background-color: rgba(160, 174, 192, var(--bg-opacity));
+}
+
 @media (min-width: 640px) {
   .btn {
     padding-left: 1.25rem;
@@ -706,6 +718,11 @@ video {
 
   .btn-gray {
     margin-left: 0.75rem;
+  }
+
+  .social-list::after {
+    content: "";
+    height: 5rem;
   }
 }
 

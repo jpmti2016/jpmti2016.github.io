@@ -14,17 +14,26 @@
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
   </head>
-  <body class="bg-gray-300">
+  <body class="bg-gray-400 py-8 lg:py-14 px-6 md:px-16">
+    <noscript>This site runs best with JavaScript enabled.</noscript>
     <header
-      class="bg-gray-900 text-gray-500 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+      class="text-gray-500 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-        <div>
-          <img
-            class="h-8"
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/logo.svg"
-            alt="logo"
-          />
+        <div class="flex items-center">
+          <div class="mr-2">
+            <img
+              class="h-8 rounded-full"
+              src="https://avatars0.githubusercontent.com/u/22106648?s=460&u=525a1290898f10aafe2f43a19d9be8cb3c7ac14d&v=4"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <span
+              class="block text-black no-underline font-bold text-xl lg:text-3xl font-extrabold leading-none lg:leading-tight"
+              >Yampier Medina</span
+            >
+          </div>
         </div>
 
         <div class="sm:hidden">
@@ -34,7 +43,7 @@
           >
             <svg
               id="close"
-              class="h-6 w-6 fill-current svg-close"
+              class="h-6 w-6 tex-black svg-close"
               viewBox="0 0 24 24"
             >
               <path
@@ -44,7 +53,7 @@
             </svg>
             <svg
               id="open"
-              class="h-6 w-6 fill-current svg-open"
+              class="h-6 w-6 text-black svg-open"
               viewBox="0 0 24 24"
             >
               <path
@@ -55,35 +64,60 @@
           </button>
         </div>
       </div>
-
+      <!-- hidden md:flex mt-3 lg:mt-4 uppercase tracking-wide text-xs spaced-x-6 -->
       <nav class="px-2 pt-2 pb-3 nav is-closed sm:flex">
         <a
-          class="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
           href="#about"
           >About</a
         >
         <a
-          class="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
           href="#projects"
           >Projects</a
         >
         <a
-          class="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
           href="#education"
           >Education</a
         >
         <a
-          class="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
           href="#contact"
           >Contact</a
         >
       </nav>
     </header>
-    <section id="welcome" class="container">
-      <h1 class="text-4xl font-bold text-center text-blue-500">
-        Yampier Medina
+    <div class="social fixed h-20 text-xl ml-5 mt-10">
+      <div class="social-list flex flex-col">
+        <a
+          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+          href="https://twitter.com/jpmti2016"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+          href="https://www.linkedin.com/in/yampier-medina-423641169"
+        >
+          <i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+          href="https://github.com/jpmti2016"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+          href="mailto:jpmti2016@gmail.com"
+        >
+          <i class="fas fa-at"></i
+        ></a>
+      </div>
+    </div>
+    <section id="welcome" class="container h-screen">
+      <h1 class="text-4xl font-bold text-left text-blue-500">
+        Computer Science Engineer (BS)
       </h1>
-      <h2>Computer Science Engineer (BS)</h2>
       <h3>Live learner, nature lover and web coder converted</h3>
       <p>
         Turned JS Developer. Know SWE, testing, SQA and PM. Like AWS serverless

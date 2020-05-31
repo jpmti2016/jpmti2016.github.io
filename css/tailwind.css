@@ -49,6 +49,11 @@
   @apply block;
 }
 
+.social-list::after {
+  content: "";
+  @apply block w-px h-10 mx-auto bg-gray-500;
+}
+
 @screen sm {
   .btn {
     @apply px-5 py-3;
@@ -56,6 +61,11 @@
 
   .btn-gray {
     @apply ml-3;
+  }
+
+  .social-list::after {
+    content: "";
+    @apply h-20;
   }
 }
 
