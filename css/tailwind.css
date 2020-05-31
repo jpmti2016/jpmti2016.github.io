@@ -51,7 +51,7 @@
 
 .social-list::after {
   content: "";
-  @apply block w-px h-10 mx-auto bg-gray-500;
+  @apply block w-px h-10 mx-auto bg-gray-800;
 }
 
 @screen sm {
@@ -64,7 +64,6 @@
   }
 
   .social-list::after {
-    content: "";
     @apply h-20;
   }
 }
