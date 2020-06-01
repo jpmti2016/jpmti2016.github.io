@@ -49,9 +49,8 @@
   @apply block;
 }
 
-.social-list::after {
-  content: "";
-  @apply block w-px h-10 mx-auto bg-gray-800;
+.social {
+  @apply relative;
 }
 
 @screen sm {
@@ -64,7 +63,8 @@
   }
 
   .social-list::after {
-    @apply h-20;
+    content: "";
+    @apply block w-px h-10 mx-auto bg-gray-800;
   }
 }
 

@@ -14,161 +14,175 @@
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
   </head>
-  <body class="bg-gray-400 py-8 lg:py-14 px-6 md:px-16">
+  <body class="bg-gray-400">
     <noscript>This site runs best with JavaScript enabled.</noscript>
-    <header
-      class="text-gray-500 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
-    >
-      <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-        <div class="flex items-center">
-          <div class="mr-2">
-            <img
-              class="h-8 rounded-full"
-              src="https://avatars0.githubusercontent.com/u/22106648?s=460&u=525a1290898f10aafe2f43a19d9be8cb3c7ac14d&v=4"
-              alt="logo"
-            />
-          </div>
-          <div>
-            <span
-              class="block text-black no-underline font-bold text-xl lg:text-3xl font-extrabold leading-none lg:leading-tight"
-              >Yampier Medina</span
-            >
-          </div>
-        </div>
-
-        <div class="sm:hidden">
-          <button
-            class="block text-gray-500 hover:text-white focus:text-white focus:outline-none nav-toggle"
-            aria-label="open navigation"
-          >
-            <svg
-              id="close"
-              class="h-6 w-6 tex-black svg-close"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-              />
-            </svg>
-            <svg
-              id="open"
-              class="h-6 w-6 text-black svg-open"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-      <!-- hidden md:flex mt-3 lg:mt-4 uppercase tracking-wide text-xs spaced-x-6 -->
-      <nav class="px-2 pt-2 pb-3 nav is-closed sm:flex">
-        <a
-          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
-          href="#about"
-          >About</a
-        >
-        <a
-          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
-          href="#projects"
-          >Projects</a
-        >
-        <a
-          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
-          href="#education"
-          >Education</a
-        >
-        <a
-          class="block mt-1 px-2 py-1 text-black rounded uppercase tracking-wide text-xs sm:text-xl spaced-x-6 hover:bg-gray-200 sm:mt-0 sm:ml-2"
-          href="#contact"
-          >Contact</a
-        >
-      </nav>
-    </header>
-    <div class="social fixed h-20 text-xl ml-5 mt-10">
-      <div class="social-list flex flex-col">
-        <a
-          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
-          href="https://twitter.com/jpmti2016"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a
-          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
-          href="https://www.linkedin.com/in/yampier-medina-423641169"
-        >
-          <i class="fab fa-linkedin-in"></i
-        ></a>
-        <a
-          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
-          href="https://github.com/jpmti2016"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a
-          class="block mt-1 px-1 rounded-full hover:bg-gray-200"
-          href="mailto:jpmti2016@gmail.com"
-        >
-          <i class="fas fa-at"></i
-        ></a>
-      </div>
-    </div>
-    <section id="welcome" class="container h-screen">
-      <h1 class="text-4xl font-bold text-left text-blue-500">
-        Computer Science Engineer (BS)
-      </h1>
-      <h3>Live learner, nature lover and web coder converted</h3>
-      <p>
-        Turned JS Developer. Know SWE, testing, SQA and PM. Like AWS serverless
-        computing, React, GraphQL and ES Next
-      </p>
-    </section>
-
-    <section id="projects">
-      <div class="flex bg-gray-100">
+    <div class="text-base sm:relative py-8 lg:py-14 px-6 md:px-16">
+      <header
+        class="text-gray-500 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+      >
         <div
-          class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
+          class="flex items-center justify-between content-center px-4 py-3 sm:p-0"
         >
-          <div class="xl:max-w-lg xl:m-auto">
-            <h2
-              class="mt-0 text-2xl font-bold text-gray-800 leading-tight sm:text-4xl lg:text-3xl xl:text-4xl"
-            >
-              Money Tracker.
-              <br class="hidden md:inline" />
-              <span class="text-indigo-500"
-                >Built with Amplify, React, GraphQL, Semantic UI</span
-              >
-            </h2>
-            <img
-              class="mt-4 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
-              src="img/02805BE5-8D74-4DEC-BDEE-DDDF02B3834E.jpeg"
-              alt="personal desktop"
-            />
-            <p class="mt-6 text-gray-600 sm:mt-8 sm:text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              ipsam laborum id in nesciunt nostrum temporibus, culpa nulla
-              explicabo autem.
-            </p>
-            <div class="mt-4 sm:mt-6">
-              <a class="btn btn-indigo shadow-lg sm:text-base" href="#"
-                >Check Demo</a
-              >
-              <a class="btn btn-gray shadow-lg sm:text-base" href="#"
-                >Learn more</a
+          <div class="flex items-center">
+            <div class="mr-2 lg:mr-4">
+              <img
+                class="h-8 sm:h-auto md:h-12 lg:h-16 rounded-full"
+                src="https://avatars0.githubusercontent.com/u/22106648?s=460&u=525a1290898f10aafe2f43a19d9be8cb3c7ac14d&v=4"
+                alt="logo"
+              />
+            </div>
+            <div class="flex-shrink-0">
+              <span
+                class="block sm:inline text-gray-900 no-underline font-bold text-xl lg:text-3xl font-extrabold leading-none lg:leading-tight"
+                >Yampier Medina</span
               >
             </div>
           </div>
+
+          <div class="sm:hidden">
+            <button
+              class="block text-gray-500 hover:text-white focus:text-white focus:outline-none nav-toggle"
+              aria-label="open navigation"
+            >
+              <svg
+                id="close"
+                class="h-6 w-6 tex-black svg-close"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+                />
+              </svg>
+              <svg
+                id="open"
+                class="h-6 w-6 text-gray-900 svg-open"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
-        <div class="hidden lg:block lg:w-1/2 lg:relative">
-          <img
-            class="absolute inset-0 h-full w-full object-cover object-center"
-            src="img/02805BE5-8D74-4DEC-BDEE-DDDF02B3834E.jpeg"
-            alt="personal desktop"
-          />
+        <!-- hidden md:flex mt-3 lg:mt-4 uppercase tracking-wide text-xs spaced-x-6 -->
+        <nav
+          class="px-2 pt-2 pb-3 nav is-closed sm:flex sm:items-center sm:content-center"
+        >
+          <a
+            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            href="#about"
+            >About</a
+          >
+          <a
+            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            href="#projects"
+            >Projects</a
+          >
+          <a
+            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            href="#education"
+            >Education</a
+          >
+          <a
+            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            href="#contact"
+            >Contact</a
+          >
+        </nav>
+      </header>
+
+      <section id="welcome" class="container h-screen">
+        <h1 class="font-bold text-left text-blue-500">
+          Computer Science Engineer (BS)
+        </h1>
+        <h3>Live learner, nature lover and web coder converted</h3>
+        <p>
+          Turned JS Developer. Know SWE, testing, SQA and PM. Like AWS
+          serverless computing, React, GraphQL and ES Next
+        </p>
+      </section>
+
+      <section id="projects">
+        <div class="flex bg-gray-100">
+          <div
+            class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
+          >
+            <div class="xl:max-w-lg xl:m-auto">
+              <h2
+                class="mt-0 text-2xl font-bold text-gray-800 leading-tight sm:text-4xl lg:text-3xl xl:text-4xl"
+              >
+                Money Tracker.
+                <br class="hidden md:inline" />
+                <span class="text-indigo-500"
+                  >Built with Amplify, React, GraphQL, Semantic UI</span
+                >
+              </h2>
+              <img
+                class="mt-4 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+                src="img/02805BE5-8D74-4DEC-BDEE-DDDF02B3834E.jpeg"
+                alt="personal desktop"
+              />
+              <p class="mt-6 text-gray-600 sm:mt-8 sm:text-xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                eum omnis, doloremque quas commodi nisi libero sapiente
+                excepturi magnam eligendi quae veritatis alias voluptate aliquid
+                voluptates soluta provident ad quos obcaecati atque nemo
+                architecto error. Ad rem quo quia, excepturi eius ratione, ea
+                facilis pariatur recusandae itaque ut, eum facere.
+              </p>
+              <div class="mt-4 sm:mt-6 text-sm sm:text-base">
+                <a class="btn btn-indigo shadow-lg" href="#">Check Demo</a>
+                <a class="btn btn-gray shadow-lg" href="#">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="hidden lg:block lg:w-1/2 lg:relative">
+            <img
+              class="absolute inset-0 h-full w-full object-cover object-center"
+              src="img/02805BE5-8D74-4DEC-BDEE-DDDF02B3834E.jpeg"
+              alt="personal desktop"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <footer class="sm:static">
+        <div
+          class="social items-center justify-center content-center flex flex-col h-20 text-xl"
+        >
+          <div
+            class="social-list sm:fixed sm:top-0 sm:left-0 sm:mt-20 sm:ml-20 lg:ml-24 sm:pt-10 flex sm:flex-col text-xl"
+          >
+            <a
+              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              href="https://twitter.com/jpmti2016"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              href="https://www.linkedin.com/in/yampier-medina-423641169"
+            >
+              <i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              href="https://github.com/jpmti2016"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              href="mailto:jpmti2016@gmail.com"
+            >
+              <i class="fas fa-at"></i
+            ></a>
+          </div>
+          <p class="text-base">Created by Yampier Medina</p>
+        </div>
+      </footer>
+    </div>
 
     <script>
       const navToggle = document.querySelector(".nav-toggle");
