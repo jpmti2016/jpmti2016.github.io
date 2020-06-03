@@ -54,7 +54,7 @@
 }
 
 .container {
-  @apply mx-auto px-5;
+  @apply mx-auto;
 }
 
 @screen sm {
@@ -72,7 +72,7 @@
   }
 
   .container {
-    @apply ml-12 py-3;
+    @apply mx-12 mr-4 py-3 w-auto;
   }
 }
 
