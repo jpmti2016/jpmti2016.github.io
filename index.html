@@ -16,58 +16,55 @@
   </head>
   <body class="bg-gray-400">
     <noscript>This site runs best with JavaScript enabled.</noscript>
-    <div
+    <!-- <div
       class="container mx-auto w-5/6 sm:w-auto sm:ml-12 text-base sm:relative py-8 lg:py-14"
-    >
-      <header
-        class="text-gray-500 sm:flex sm:justify-between sm:items-center sm:py-3"
+    > -->
+    <header class="bg-blue-800 text-gray-500">
+      <div
+        class="container w-5/6 sm:w-auto text-base sm:relative py-8 lg:py-14 sm:flex sm:justify-between sm:items-center"
       >
-        <div
-          class="flex items-center justify-between content-center px-1 py-3 sm:p-0"
-        >
-          <div class="flex items-center">
-            <div class="mr-2 lg:mr-4">
-              <img
-                class="h-8 sm:h-10 md:h-12 lg:h-16 rounded-full border-2"
-                src="https://avatars0.githubusercontent.com/u/22106648?s=460&u=525a1290898f10aafe2f43a19d9be8cb3c7ac14d&v=4"
-                alt="logo"
-              />
-            </div>
-            <div class="flex-shrink-0">
-              <span
-                class="block whitespace-no-wrap sm:inline text-gray-900 no-underline font-bold text-xl lg:text-3xl font-extrabold leading-none lg:leading-tight"
-                >Yampier Medina</span
-              >
-            </div>
+        <div class="flex items-center">
+          <div class="mr-2 lg:mr-4">
+            <img
+              class="h-8 sm:h-10 md:h-12 lg:h-16 rounded-full border-2"
+              src="https://avatars0.githubusercontent.com/u/22106648?s=460&u=525a1290898f10aafe2f43a19d9be8cb3c7ac14d&v=4"
+              alt="logo"
+            />
           </div>
-
-          <div class="sm:hidden">
-            <button
-              class="block text-gray-500 hover:text-white focus:text-white focus:outline-none nav-toggle"
-              aria-label="open navigation"
+          <div class="flex-shrink-0">
+            <span
+              class="block whitespace-no-wrap sm:inline text-gray-900 no-underline font-bold text-xl lg:text-3xl font-extrabold leading-none lg:leading-tight"
+              >Yampier Medina</span
             >
-              <svg
-                id="close"
-                class="h-6 w-6 tex-black svg-close"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-                />
-              </svg>
-              <svg
-                id="open"
-                class="h-6 w-6 text-gray-900 svg-open"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-                />
-              </svg>
-            </button>
           </div>
+        </div>
+
+        <div class="sm:hidden">
+          <button
+            class="block text-gray-500 hover:text-white focus:text-white focus:outline-none nav-toggle"
+            aria-label="open navigation"
+          >
+            <svg
+              id="close"
+              class="h-6 w-6 tex-black svg-close"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+              />
+            </svg>
+            <svg
+              id="open"
+              class="h-6 w-6 text-gray-900 svg-open"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+              />
+            </svg>
+          </button>
         </div>
 
         <nav
@@ -94,9 +91,29 @@
             >Contact</a
           >
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <section id="welcome" class="sm:h-screen">
+    <section id="wellcome" class="sm:h-screen bg-red-500">
+      <div class="container">
+        <div
+          class="flex items-center justify-between content-center px-1 py-3 sm:p-0"
+        >
+          <div class="flex flex-col mt-5 sm:mt-7 mx-auto sm:ml-20 sm:mr-2">
+            <h1 class="mb-2 text-xl sm:text-4xl">
+              Hi, I'm a
+              <span class="font-semibold">JavaScript Software Engineer</span>
+              .
+            </h1>
+            <p class="mb-2 sm:text-lg">
+              I like AWS serverless computing, React, GraphQL and ES Next.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="bg-blue-400">
+      <div class="container">
         <div class="flex flex-col mt-5 sm:mt-7 mx-3 sm:ml-20 sm:mr-2">
           <h1 class="mb-2 sm:text-xl">
             Hi, I'm a
@@ -150,13 +167,13 @@
             [technical, pending].
           </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="projects mt-8">
+    <section id="projects" class="bg-yellow-600">
+      <div class="container mx-auto px-8 py-12 lg:w-1/2 lg:py-24 lg:px-12">
         <div class="flex bg-gray-100">
-          <div
-            class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
-          >
+          <div class="max-w-md sm:max-w-xl lg:max-w-full">
             <div class="xl:max-w-lg xl:m-auto">
               <h2
                 class="mt-0 text-2xl font-bold text-gray-800 leading-tight sm:text-4xl lg:text-3xl xl:text-4xl"
@@ -194,9 +211,11 @@
             />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <footer class="sm:static">
+    <footer class="sm:static">
+      <div class="container">
         <div
           class="social items-center justify-center content-center flex flex-col h-20 text-xl"
         >
@@ -228,8 +247,9 @@
           </div>
           <p class="text-base">Created by Yampier Medina</p>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+    <!-- </div> -->
 
     <script>
       const navToggle = document.querySelector(".nav-toggle");

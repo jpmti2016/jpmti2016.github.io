@@ -700,6 +700,13 @@ video {
   position: relative;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 @media (min-width: 640px) {
   .btn {
     padding-left: 1.25rem;
@@ -722,6 +729,12 @@ video {
     --bg-opacity: 1;
     background-color: #2d3748;
     background-color: rgba(45, 55, 72, var(--bg-opacity));
+  }
+
+  .container {
+    margin-left: 3rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 }
 

@@ -53,6 +53,10 @@
   @apply relative;
 }
 
+.container {
+  @apply mx-auto px-5;
+}
+
 @screen sm {
   .btn {
     @apply px-5 py-3;
@@ -65,6 +69,10 @@
   .social-list::after {
     content: "";
     @apply block w-px h-10 mx-auto bg-gray-800;
+  }
+
+  .container {
+    @apply ml-12 py-3;
   }
 }
 
