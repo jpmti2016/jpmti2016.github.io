@@ -54,7 +54,7 @@
 }
 
 .container {
-  @apply p-10 mx-auto;
+  @apply p-4 mx-auto;
 }
 
 @screen sm {
