@@ -16,25 +16,23 @@
   </head>
   <body class="bg-gray-400">
     <noscript>This site runs best with JavaScript enabled.</noscript>
-    <!-- <div
-      class="container mx-auto w-5/6 sm:w-auto sm:ml-12 text-base sm:relative py-8 lg:py-14"
-    > -->
-    <header class="bg-blue-800 text-gray-500">
+
+    <header class="text-gray-500 bg-blue-800">
       <div
-        class="container text-base sm:relative py-5 lg:py-14 flex justify-between items-center"
+        class="container flex items-center justify-between py-5 text-base lg:py-14"
       >
         <div class="flex items-center">
           <div class="mr-2 lg:mr-4">
             <img
-              class="h-8 sm:h-10 md:h-12 lg:h-16 rounded-full border-2"
+              class="h-8 border-2 rounded-full sm:h-10 md:h-12 lg:h-16"
               src="https://avatars0.githubusercontent.com/u/22106648?s=460&u=525a1290898f10aafe2f43a19d9be8cb3c7ac14d&v=4"
               alt="logo"
             />
           </div>
           <div class="flex-shrink-0">
             <span
-              class="block whitespace-no-wrap sm:inline text-gray-900 no-underline font-bold text-xl lg:text-3xl font-extrabold leading-none lg:leading-tight"
-              >Yampier Medina</span
+              class="block text-xl font-bold font-extrabold leading-none text-gray-900 no-underline whitespace-no-wrap sm:inline lg:text-3xl lg:leading-tight"
+              >jpmti2016</span
             >
           </div>
         </div>
@@ -46,7 +44,7 @@
           >
             <svg
               id="close"
-              class="h-6 w-6 tex-black svg-close"
+              class="w-6 h-6 tex-black svg-close"
               viewBox="0 0 24 24"
             >
               <path
@@ -56,7 +54,7 @@
             </svg>
             <svg
               id="open"
-              class="h-6 w-6 text-gray-900 svg-open"
+              class="w-6 h-6 text-gray-900 svg-open"
               viewBox="0 0 24 24"
             >
               <path
@@ -71,22 +69,22 @@
           class="px-2 pt-2 pb-3 nav is-closed sm:flex sm:items-center sm:content-center"
         >
           <a
-            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
             href="#about"
             >About</a
           >
           <a
-            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
             href="#projects"
             >Projects</a
           >
           <a
-            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
             href="#education"
             >Education</a
           >
           <a
-            class="block mt-1 px-2 py-1 text-gray-900 uppercase tracking-wide text-lg sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
+            class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:ml-2"
             href="#contact"
             >Contact</a
           >
@@ -94,27 +92,41 @@
       </div>
     </header>
 
-    <section id="wellcome" class="sm:h-screen bg-red-500">
-      <div class="container">
-        <div
-          class="flex items-center justify-between content-center px-1 py-3 sm:p-0"
+    <section id="wellcome" class="">
+      <div class="container text-center sm:py-20 md:py-24 xl:py-32">
+        <p class="mb-2 text-lg font-light tracking-widest sm:text-2xl">
+          Hi
+        </p>
+        <p class="mb-2 text-lg font-light tracking-widest sm:text-2xl">
+          Welcome
+        </p>
+        <h1 class="mb-2 text-xl font-semibold sm:text-3xl">
+          I'm Yampier Medina
+        </h1>
+        <h2 class="mb-3 text-2xl font-bold tracking-wide sm:text-5xl">
+          A Software Engineer
+        </h2>
+        <p class="mb-2 text-lg leading-8 sm:text-xl">
+          I like AWS serverless computing, React, GraphQL and ES Next.
+        </p>
+        <p class="mb-2 text-xl font-semibold leading-8 sm:text-xl">
+          Job status
+        </p>
+        <p class="mb-4 text-lg leading-8 sm:text-xl">
+          Searching, 100% Remote
+        </p>
+
+        <a
+          href="mailto:jpmti2016@gmail.com"
+          class="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700"
+          >Contact me</a
         >
-          <div class="flex flex-col mt-5 sm:mt-7 mx-auto sm:ml-20 sm:mr-2">
-            <h1 class="mb-2 text-xl sm:text-4xl">
-              Hi, I'm a
-              <span class="font-semibold">JavaScript Software Engineer</span>
-              .
-            </h1>
-            <p class="mb-2 sm:text-lg">
-              I like AWS serverless computing, React, GraphQL and ES Next.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
+
     <section id="about" class="bg-blue-400">
       <div class="container">
-        <div class="flex flex-col mt-5 sm:mt-7 mx-3 sm:ml-20 sm:mr-2">
+        <div class="flex flex-col mx-3 mt-5 sm:mt-7 sm:ml-20 sm:mr-2">
           <h1 class="mb-2 sm:text-xl">
             Hi, I'm a
             <span class="font-semibold">Computer Science Engineer (2009)</span>
@@ -170,13 +182,13 @@
       </div>
     </section>
 
-    <section id="projects" class="bg-yellow-600">
-      <div class="container mx-auto px-8 py-12 lg:w-1/2 lg:py-24 lg:px-12">
-        <div class="flex bg-gray-100">
-          <div class="max-w-md sm:max-w-xl lg:max-w-full">
+    <section id="projects" class="bg-gray-100">
+      <div class="container px-8 py-12 mx-auto lg:w-1/2 lg:py-24 lg:px-12">
+        <div class="flex">
+          <div class="max-w-md p-4 sm:max-w-xl lg:max-w-ful">
             <div class="xl:max-w-lg xl:m-auto">
               <h2
-                class="mt-0 text-2xl font-bold text-gray-800 leading-tight sm:text-4xl lg:text-3xl xl:text-4xl"
+                class="text-2xl font-bold leading-tight text-gray-800 mt- sm:text-4xl lg:text-3xl xl:text-4xl"
               >
                 Money Tracker.
                 <br class="hidden md:inline" />
@@ -189,7 +201,7 @@
                 src="img/02805BE5-8D74-4DEC-BDEE-DDDF02B3834E.jpeg"
                 alt="personal desktop"
               />
-              <p class="mt-6 text-gray-600 sm:mt-8 sm:text-xl">
+              <p class="mt-2 text-gray-600 sm:mt-8 sm:text-xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
                 eum omnis, doloremque quas commodi nisi libero sapiente
                 excepturi magnam eligendi quae veritatis alias voluptate aliquid
@@ -197,18 +209,11 @@
                 architecto error. Ad rem quo quia, excepturi eius ratione, ea
                 facilis pariatur recusandae itaque ut, eum facere.
               </p>
-              <div class="mt-4 sm:mt-6 text-sm sm:text-base">
-                <a class="btn btn-indigo shadow-lg" href="#">Check Demo</a>
-                <a class="btn btn-gray shadow-lg" href="#">Learn more</a>
+              <div class="mt-4 text-sm sm:mt-6 sm:text-base">
+                <a class="shadow-lg btn btn-indigo" href="#">Check Demo</a>
+                <a class="shadow-lg btn btn-gray" href="#">Learn more</a>
               </div>
             </div>
-          </div>
-          <div class="hidden lg:block lg:w-1/2 lg:relative">
-            <img
-              class="absolute inset-0 h-full w-full object-cover object-center"
-              src="img/02805BE5-8D74-4DEC-BDEE-DDDF02B3834E.jpeg"
-              alt="personal desktop"
-            />
           </div>
         </div>
       </div>
@@ -217,29 +222,27 @@
     <footer class="sm:static">
       <div class="container">
         <div
-          class="social items-center justify-center content-center flex flex-col h-20 text-xl"
+          class="flex flex-col items-center content-center justify-center h-20 text-xl social"
         >
-          <div
-            class="social-list text-xl sm:fixed sm:top-0 sm:left-0 sm:mt-20 lg:mt-24 sm:ml-12 lg:ml-16 sm:pt-10 flex sm:flex-col"
-          >
+          <div class="flex text-xl social-list">
             <a
-              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              class="block px-1 mt-1 rounded-full hover:bg-gray-200"
               href="https://twitter.com/jpmti2016"
               ><i class="fab fa-twitter"></i
             ></a>
             <a
-              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              class="block px-1 mt-1 rounded-full hover:bg-gray-200"
               href="https://www.linkedin.com/in/yampier-medina-423641169"
             >
               <i class="fab fa-linkedin-in"></i
             ></a>
             <a
-              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              class="block px-1 mt-1 rounded-full hover:bg-gray-200"
               href="https://github.com/jpmti2016"
               ><i class="fab fa-github"></i
             ></a>
             <a
-              class="block mt-1 px-1 rounded-full hover:bg-gray-200"
+              class="block px-1 mt-1 rounded-full hover:bg-gray-200"
               href="mailto:jpmti2016@gmail.com"
             >
               <i class="fas fa-at"></i

@@ -1,2 +1,5 @@
 node_modules/
 tailwind-full.config.js
+particlesjs*
+img/icon-start.svg
+.vscode/

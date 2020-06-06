@@ -2,15 +2,15 @@
 @tailwind components;
 
 .btn {
-  @apply px-2 py-2 mb-2 inline-block rounded-lg uppercase tracking-wider font-semibold;
+  @apply inline-block px-2 py-2 mb-2 font-semibold tracking-wider uppercase rounded-lg;
 }
 
 .btn:focus {
-  @apply outline-none shadow-outline;
+  @apply shadow-outline outline-none;
 }
 
 .btn-indigo {
-  @apply bg-indigo-500 text-white;
+  @apply text-white bg-indigo-500;
 }
 
 .btn-indigo:hover {
@@ -22,7 +22,7 @@
 }
 
 .btn-gray {
-  @apply ml-2 bg-gray-400 text-gray-800;
+  @apply ml-2 text-gray-800 bg-gray-400;
 }
 
 .btn-gray:hover {
@@ -54,7 +54,7 @@
 }
 
 .container {
-  @apply mx-auto;
+  @apply p-10 mx-auto;
 }
 
 @screen sm {
@@ -64,15 +64,6 @@
 
   .btn-gray {
     @apply ml-3;
-  }
-
-  .social-list::after {
-    content: "";
-    @apply block w-px h-10 mx-auto bg-gray-800;
-  }
-
-  .container {
-    @apply mx-12 mr-4 py-3 w-auto;
   }
 }
 
