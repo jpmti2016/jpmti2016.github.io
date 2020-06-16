@@ -621,10 +621,10 @@ video {
 
 .btn {
   display: inline-block;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   margin-bottom: 0.5rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -710,12 +710,16 @@ video {
   .btn {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .btn-gray {
     margin-left: 0.75rem;
+  }
+
+  .container {
+    padding: 3rem;
   }
 }
 
