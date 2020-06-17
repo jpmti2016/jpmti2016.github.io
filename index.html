@@ -67,22 +67,27 @@
       </div>
       <nav class="pt-2 pb-3 pl-8 nav is-closed sm:flex">
         <a
-          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
+          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded nav-item sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
+          href="#wellcome"
+          >Home</a
+        >
+        <a
+          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded nav-item sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
           href="#about"
           >About</a
         >
         <a
-          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
+          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded nav-item sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
           href="#projects"
           >Projects</a
         >
         <a
-          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
+          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded nav-item sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
           href="#education"
           >Education</a
         >
         <a
-          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
+          class="block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded nav-item sm:text-sm lg:text-xl spaced-x-6 hover:bg-gray-200 sm:py-0 sm:m-0 sm:ml-2"
           href="#contact"
           >Contact</a
         >
@@ -233,7 +238,7 @@
                 Try the app, create a new user or use user: test password:
                 test2020
               </p>
-              <div class="mt-4 text-sm sm:mt-6 sm:text-base">
+              <div class="mt-4 text-sm sm:pt-6 sm:text-base sm:mt-auto">
                 <a
                   class="shadow-lg btn btn-indigo"
                   href="https://www.trackingmyfinance.com"
@@ -284,11 +289,11 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Obcaecati, dolorum?
               </p>
-              <p class="mt-2 text-lg text-gray-600">
+              <!-- <p class="mt-2 text-lg text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus, eum?
-              </p>
-              <div class="mt-4 text-sm sm:mt-6 sm:text-base">
+              </p> -->
+              <div class="mt-4 text-sm sm:pt-6 sm:text-base sm:mt-auto">
                 <a class="shadow-lg btn btn-indigo" href="#">Demo</a>
                 <a class="shadow-lg btn btn-gray" href="#">Code</a>
               </div>
@@ -340,7 +345,7 @@
       const svgClose = document.querySelector("#close");
       const svgOpen = document.querySelector("#open");
 
-      navToggle.addEventListener("click", () => {
+      const toggleClasses = () => {
         nav.classList.toggle("nav--visible");
 
         if (nav.classList.contains("is-closed")) {
@@ -356,6 +361,13 @@
           svgOpen.classList.remove("svg-close");
           svgOpen.classList.add("svg-open");
         }
+      };
+
+      navToggle.addEventListener("click", () => toggleClasses());
+
+      const navItems = document.querySelectorAll(".nav-item");
+      navItems.forEach((item) => {
+        item.addEventListener("click", () => toggleClasses());
       });
     </script>
   </body>
