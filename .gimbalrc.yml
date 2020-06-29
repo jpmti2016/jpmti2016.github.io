@@ -40,15 +40,9 @@ configs:
 
   # File and directory size settings
   size:
-    - path: ./build/precache-*.js
+    - path: ./lazysizes.min.js
       maxSize: 10 KB
-    - path: ./build/static/js/[0-9]*.chunk.js
-      maxSize: 1 MB
-    - path: ./build/static/js/*.chunk.js
-      maxSize: 1 MB
-    - path: ./build/static/js/runtime*.js
-      maxSize: 10 KB
-    - path: ./build/index.html
+    - path: ./index.html
       maxSize: 10 KB
     - path: ./build/favicon.ico
       maxSize: 10 KB
@@ -58,15 +52,9 @@ configs:
   # Unused source settings
   unused-source:
     threshold:
-      - path: "**/*(private).*.chunk.css"
+      - path: "**/index.css"
         maxSize: 60%
-      - path: "**/!(private).*.chunk.css"
-        maxSize: 60%
-      - path: "**/*([0-9]).*.chunk.js"
-        maxSize: 90%
-      - path: "**/!([0-9]|main).*.chunk.js"
-        maxSize: 45%
-      - path: "**/(main).*.chunk.js"
+      - path: "./lazysizes.min.js"
         maxSize: 50%
 
 # Locations of reports. Useful for storing artifacts in CI
