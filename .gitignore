@@ -3,3 +3,5 @@ tailwind-full.config.js
 particlesjs*
 img/icon-start.svg
 .vscode/
+
+artifacts/

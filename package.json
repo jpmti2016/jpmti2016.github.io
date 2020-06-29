@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss css/tailwind.css -o build/index.css",
+    "audit": "gimbal audit",
     "watch": "postcss css/tailwind.css -o build/index.css --watch"
   },
   "repository": {
@@ -25,6 +26,9 @@
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
+    "@modus/gimbal-plugin-axe": "^1.2.6",
+    "@modus/gimbal-plugin-last-value": "^1.2.6",
+    "@modus/gimbal-plugin-sqlite": "^1.2.6",
     "cssnano": "^4.1.10"
   }
 }
