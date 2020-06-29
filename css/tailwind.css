@@ -24,6 +24,18 @@
   @apply block px-2 py-1 mt-1 text-lg tracking-wide text-gray-900 uppercase rounded;
 }
 
+.btn-gray {
+  @apply ml-2 text-gray-800 bg-gray-400;
+}
+
+.btn-gray:hover {
+  @apply bg-gray-500;
+}
+
+.btn-gray:active {
+  @apply bg-gray-500;
+}
+
 .nav-item:hover {
   @apply text-gray-100 bg-blue-800;
 }
@@ -34,18 +46,6 @@
   @apply shadow-outline outline-none;
 }
 
-.btn-gray {
-  @apply ml-2 text-gray-700 bg-gray-300;
-}
-
-.btn-gray:hover {
-  @apply bg-gray-400;
-}
-
-.btn-gray:active {
-  @apply bg-gray-500;
-}
-
 .nav {
   @apply hidden;
 }
@@ -53,6 +53,10 @@
 .nav--visible {
   @apply block;
 }
+
+/* .social-list svg:hover {
+  @apply text-gray-100;
+} */
 
 .svg-close {
   @apply hidden;
