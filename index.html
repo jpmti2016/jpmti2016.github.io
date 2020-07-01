@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="personal portfolio website software developer react graphql aws amplify css html5 taildwindcss bulma postcss"
+      content="personal portfolio website of a software engineer that know javascript, reactjs, graphql, aws amplify, css, html5, taildwindcss, bulma, postcss and git"
     />
     <title>Yampier Medina personal portfolio</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Roboto:wght@400&family=Source+Code+Pro:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
 
@@ -23,11 +23,11 @@
     ></script>
     <script src="lazysizes.min.js" async=""></script>
   </head>
-  <body class="bg-gray-100">
+  <body class="bg-gray-100 font-roboto">
     <noscript>This site runs best with JavaScript enabled.</noscript>
 
     <header
-      class="sticky top-0 px-4 mx-auto text-gray-500 bg-gray-200 sm:flex sm:items-center sm:justify-between sm:px-12"
+      class="sticky top-0 px-4 mx-auto text-gray-500 bg-gray-200 sm:flex sm:items-center sm:justify-between sm:px-12 font-code"
     >
       <div class="flex items-center justify-between py-5 text-base lg:py-14">
         <div class="flex items-center">
@@ -102,31 +102,33 @@
     <section id="wellcome" class="bg-gray-100">
       <div class="flex pt-24 pb-32">
         <div class="container text-center sm:py-20 md:py-24 xl:py-32">
-          <p class="mb-2 text-lg font-light tracking-widest sm:text-2xl">
+          <p class="mb-2 text-lg font-normal font-playfair sm:text-2xl">
             Hi
           </p>
-          <p class="mb-2 text-lg font-light tracking-widest sm:text-2xl">
+          <p class="mb-2 text-lg font-normal font-playfair sm:text-2xl">
             Welcome
           </p>
-          <h1 class="mb-2 text-xl font-semibold sm:text-3xl">
+          <h1 class="mb-2 text-xl font-normal font-roboto sm:text-3xl">
             I'm Yampier Medina
           </h1>
-          <h2 class="mb-3 text-2xl font-bold tracking-wide sm:text-5xl">
+          <h2
+            class="mb-3 text-2xl font-extrabold tracking-wide font-playfair sm:text-5xl"
+          >
             A Software Engineer
           </h2>
-          <p class="mb-10 text-lg leading-8 sm:text-xl">
+          <p class="mb-10 text-lg font-normal font-code sm:text-xl">
             I like AWS serverless computing, React, GraphQL and ES Next.
           </p>
-          <p class="mb-2 text-xl font-semibold leading-8 sm:text-xl">
+          <p
+            class="mb-2 text-xl font-semibold tracking-wide font-playfair sm:text-xl"
+          >
             Job status
           </p>
-          <p class="mb-4 text-lg leading-8 sm:text-xl">
+          <p class="mb-4 text-lg leading-8 font-code sm:text-xl">
             Searching, 100% Remote
           </p>
 
-          <a href="mailto:jpmti2016@gmail.com" class="btn btn-blue"
-            >Contact me</a
-          >
+          <a href="mailto:jpmti2016@gmail.com" class="btn btn-blue">Hire me</a>
         </div>
       </div>
     </section>
@@ -134,10 +136,12 @@
     <section id="about" class="bg-gray-200">
       <div class="container">
         <div class="flex flex-col mx-4 mt-6 sm:mt-7">
-          <h2 class="mb-3 text-2xl font-bold tracking-wide sm:text-3xl">
+          <h2
+            class="mb-3 text-2xl font-bold tracking-wide font-playfair sm:text-3xl"
+          >
             About
           </h2>
-          <p class="mb-3 sm:text-xl">
+          <p class="mb-3 sm:text-lg">
             I am a
             <span class="font-semibold">Computer Science Engineer (2009)</span>
             turned to the <span class="font-semibold">JS universe</span>. I know
@@ -145,14 +149,14 @@
           </p>
           <p class="mb-3 sm:text-lg">
             I build secure and scalable cloud apps with AWS Amplify (and other
-            services), maintaining predictability and order in the process from
-            prototyping to deployment.
+            AWS services), maintaining predictability and order in the process
+            from prototyping to deployment.
           </p>
 
           <p class="mb-3 sm:text-lg">
-            I care about UX/UI, SEO and performance but I have a lot grasp.
-            Currently learning from Refactoring UI book and Tailwind CSS. I have
-            also played with Bootstrap and Semantic UI.
+            I care about UX/UI, SEO and performance but I have a lot to grasp.
+            Currently learning from the Refactoring UI book and the Tailwind CSS
+            framework. I have also used Bootstrap and Semantic UI.
           </p>
 
           <p class="mb-3 sm:text-lg">
@@ -170,15 +174,14 @@
             <span class="font-medium">The choice by Edith Eva Eger</span>
             [non-technical, completed],
             <span class="font-medium">Composing Software by Eric Elliot.</span>
-            [technical, completed],
+            [technical, in progress],
             <span class="font-medium">Fluent Forever by Gabriel Wyner</span>
             [non-technical, in progress] and
             <span class="font-medium"
-              >The Stratup Owners's Manual by Steve Blank & Bob Dorf</span
+              >The Startup Owners's Manual by Steve Blank & Bob Dorf</span
             >
             [technical, pending].
           </p>
-
           <p class="mb-3 sm:text-lg">
             I have 9 lovely Bettas and a pasion for nature.
           </p>
@@ -189,14 +192,18 @@
     <section id="projects" class="mb-10 bg-gray-100">
       <div class="container">
         <div class="mx-4 mt-6 sm:mt-7">
-          <h2 class="mb-3 text-2xl font-bold tracking-wide sm:text-3xl">
+          <h2
+            class="mb-3 text-2xl font-bold tracking-wide font-playfair sm:text-3xl"
+          >
             Projects
           </h2>
           <div class="sm:grid sm:grid-cols-2 sm:gap-8">
             <div class="flex flex-col p-2 bg-gray-200 sm:p-4">
               <div>
-                <h3 class="mb-1 text-xl font-bold leading-tight text-gray-800">
-                  Money Tracker.
+                <h3
+                  class="mb-1 text-xl font-semibold leading-tight text-gray-800 font-playfair"
+                >
+                  Money Tracker
                 </h3>
 
                 <img
@@ -213,7 +220,7 @@
                   data-sizes="(min-width: 1280px) 528px, (min-width: 1040px) 400px, (min-width: 780px) 272px, (min-width: 640px) 208px, calc(100vw - 80px)"
                   alt="personal desktop"
                 />
-                <p class="inline-block">
+                <p class="inline-block font-code">
                   <span
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
                     >JS</span
@@ -250,22 +257,25 @@
                 </p>
               </div>
               <p class="mt-2 text-lg text-gray-800 sm:mt-4">
-                Keeping records of our expenses is a hard work. Also our
-                receips, for everything, are in a continous treatening by the
-                amount of space that they need and the probability of lossing
-                them.
+                Keeping records of every day expenses is a hard work. Increasing
+                amount of receips that are prone to loss or overflow any house
+                drawers. Or houndred of card transactions that don't show any
+                hint of the store, product or products's category involved.
               </p>
               <p class="mt-2 text-lg text-gray-800">
-                But event worse how to
-                <span class="font-semibold">detect trends</span> in our buying
+                How to
+                <span class="font-semibold">detect trends</span> in the buying
                 habits or how to know the
-                <span class="font-semibold"
-                  >size of your budget still alive</span
+                <span class="font-semibold">size of the budget still alive</span
                 >?
               </p>
               <p class="mt-2 text-lg text-gray-800">
-                Try the app, create a new user or use user: test password:
-                test2020
+                <span class="font-semibold">Money Tracker</span> works to delete
+                present and future personal finance managing issues.
+              </p>
+              <p class="mt-2 text-lg text-gray-800">
+                Try the app <span class="font-code">sign in </span> or use
+                <span class="font-code">user: test, password: test2020 </span>
               </p>
               <div class="mt-4 text-sm sm:pt-6 sm:text-base sm:mt-auto">
                 <a
@@ -278,7 +288,9 @@
             </div>
             <div class="flex flex-col p-2 bg-gray-200 sm:p-4">
               <div>
-                <h3 class="mb-1 text-xl font-bold leading-tight text-gray-800">
+                <h3
+                  class="mb-1 text-xl font-semibold leading-tight text-gray-800 font-playfair"
+                >
                   Portfolio website
                 </h3>
 
@@ -296,7 +308,7 @@
                   data-sizes="(min-width: 1280px) 528px, (min-width: 1040px) 400px, (min-width: 780px) 272px, (min-width: 640px) 208px, calc(100vw - 80px)"
                   alt="personal desktop"
                 />
-                <p class="inline-block">
+                <p class="inline-block font-code">
                   <span
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
                     >Tailwind CSS</span
@@ -312,6 +324,10 @@
                   <span
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
                     >PostCSS</span
+                  >
+                  <span
+                    class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
+                    >Sizzy</span
                   >
                   <span
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
@@ -332,18 +348,21 @@
                 </p>
               </div>
               <p class="mt-2 text-lg text-gray-800 sm:mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda quod culpa, quisquam repellat reprehenderit deserunt
-                facilis sint dolore maiores nostrum!bu
+                Personal website portfolio created to showcase my projects,
+                skills and to be a mean to intercat with employers, clients and
+                developers.
               </p>
               <p class="mt-2 text-lg text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati, dolorum?
+                The project was designed to provide a great user experience and
+                has good performance. Therefore used techniques to optimaze its
+                assets and reduce the overall loading time.
               </p>
-              <!-- <p class="mt-2 text-lg text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus, eum?
-              </p> -->
+              <p class="mt-2 text-lg text-gray-800">
+                TailwindCSS was a tool very usefull to follow a design system
+                and create a custom designed website while taking advantage of
+                its utility-first characteristict to fast prototyping and
+                update.
+              </p>
               <div class="mt-4 text-sm sm:pt-6 sm:text-base sm:mt-auto">
                 <a class="shadow-lg btn btn-blue" href="#">Demo</a>
                 <a
@@ -355,7 +374,9 @@
             </div>
             <div class="flex flex-col p-2 bg-gray-200 sm:p-4">
               <div>
-                <h3 class="mb-1 text-xl font-bold leading-tight text-gray-800">
+                <h3
+                  class="mb-1 text-xl font-semibold leading-tight text-gray-800 font-playfair"
+                >
                   Image gallery
                 </h3>
 
@@ -373,7 +394,7 @@
                   data-sizes="(min-width: 1280px) 528px, (min-width: 1040px) 400px, (min-width: 780px) 272px, (min-width: 640px) 208px, calc(100vw - 80px)"
                   alt="personal desktop"
                 />
-                <p class="inline-block">
+                <p class="inline-block font-code">
                   <span
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
                     >CSS</span
@@ -390,16 +411,29 @@
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
                     >JS</span
                   >
+                  <span
+                    class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
+                    >Gimp</span
+                  >
                 </p>
               </div>
               <p class="mt-2 text-lg text-gray-800 sm:mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda quod culpa, quisquam repellat reprehenderit deserunt
-                facilis sint dolore maiores nostrum!bu
+                This project provided a possibility to use CSS Grid while trying
+                to get a responsive website. It includes inline javascript for
+                creating many images of diffrent sizes to fill the grid. This
+                techniques came from the Wes Bos's great course CSS Grid. Also
+                the use of images was a good intro to analizing the impact of
+                images size, format and aspect-ratio in the page's performance.
               </p>
               <p class="mt-2 text-lg text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati, dolorum?
+                Gimp and imageoptim were tools that made easy the process of
+                creating the images needed to respond at diferent viewport's
+                width and compressing them to achieve better performance.
+              </p>
+              <p class="mt-2 text-lg text-gray-800">
+                In detecting the images issues was very useful the Google
+                Console tool for auditing the page known as Lighthouse and
+                RespImageLint.
               </p>
               <!-- <p class="mt-2 text-lg text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -420,8 +454,10 @@
             </div>
             <div class="flex flex-col p-2 bg-gray-200 sm:p-4">
               <div>
-                <h3 class="mb-1 text-xl font-bold leading-tight text-gray-800">
-                  Nature at your feet.
+                <h3
+                  class="mb-1 text-xl font-semibold leading-tight text-gray-800 font-playfair"
+                >
+                  Nature at your feet
                 </h3>
 
                 <img
@@ -438,7 +474,7 @@
                   data-sizes="(min-width: 1280px) 528px, (min-width: 1040px) 400px, (min-width: 780px) 272px, (min-width: 640px) 208px, calc(100vw - 80px)"
                   alt="personal desktop"
                 />
-                <p class="inline-block">
+                <p class="inline-block font-code">
                   <span
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
                     >CSS</span
@@ -451,21 +487,30 @@
                     class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
                     >HTML5</span
                   >
+                  <span
+                    class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
+                    >imageoptim</span
+                  >
+                  <span
+                    class="inline-block px-2 mr-1 text-xs font-semibold tracking-wide text-gray-800 uppercase bg-gray-100 rounded-full sm:mb-1"
+                    >Gimp</span
+                  >
                 </p>
               </div>
               <p class="mt-2 text-lg text-gray-800 sm:mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda quod culpa, quisquam repellat reprehenderit deserunt
-                facilis sint dolore maiores nostrum!bu
+                This project explore basics properties of CSS Grid and how it
+                allow responsive layouts. The idea also came from the Wes Bos's
+                great course CSS Grid.
               </p>
               <p class="mt-2 text-lg text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati, dolorum?
+                It make possible thinking about image quality, size, format,
+                aspect ratio and how it afect the page performance and user
+                experience.
               </p>
-              <!-- <p class="mt-2 text-lg text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus, eum?
-              </p> -->
+              <p class="mt-2 text-lg text-gray-800">
+                Also was uselful for practice the use of Gimp, imageoptim,
+                Lighthouse and RespImageLint.
+              </p>
               <div class="mt-4 text-sm sm:pt-6 sm:text-base sm:mt-auto">
                 <a
                   class="shadow-lg btn btn-blue"
@@ -517,8 +562,8 @@
               <i class="fas fa-at"></i
             ></a>
           </div>
-          <p class="text-base">Created by Yampier Medina</p>
-          <p class="text-base">© 2020 MIT licence</p>
+          <p class="text-base font-playfair">Created by Yampier Medina</p>
+          <p class="text-sm font-code">© 2020 MIT Licence</p>
         </div>
       </div>
     </footer>
